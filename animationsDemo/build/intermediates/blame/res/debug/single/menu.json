@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/saunakc/Documents/Docs/Reference/personal/Android_Reference/SampleOct16/animationsDemo/build/intermediates/res/merged/debug/menu/activity_screen_slide.xml",
+        "source": "/Users/saunakc/Documents/Docs/Reference/personal/Android_Reference/SampleOct16/animationsDemo/src/main/res/menu/activity_screen_slide.xml"
+    },
+    {
+        "merged": "/Users/saunakc/Documents/Docs/Reference/personal/Android_Reference/SampleOct16/animationsDemo/build/intermediates/res/merged/debug/menu/activity_layout_changes.xml",
+        "source": "/Users/saunakc/Documents/Docs/Reference/personal/Android_Reference/SampleOct16/animationsDemo/src/main/res/menu/activity_layout_changes.xml"
+    },
+    {
+        "merged": "/Users/saunakc/Documents/Docs/Reference/personal/Android_Reference/SampleOct16/animationsDemo/build/intermediates/res/merged/debug/menu/activity_crossfade.xml",
+        "source": "/Users/saunakc/Documents/Docs/Reference/personal/Android_Reference/SampleOct16/animationsDemo/src/main/res/menu/activity_crossfade.xml"
+    }
+]

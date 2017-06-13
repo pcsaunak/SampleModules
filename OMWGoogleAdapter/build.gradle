@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.operamediaworks.googleplayadapter.demoapp"
+        minSdkVersion 9
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs '../../../../lib'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+//    compile files('../../../../lib/admarvel-android-sdk-core.jar')
+//    compile files('../../../../lib/operamediaworks-android-sdk-googleplay-adapter.jar')
+}
